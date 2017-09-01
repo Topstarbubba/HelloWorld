@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Hello EPAM</string>
-    <string name="button1">You pressed button 1!</string>
-    <string name="button2">You pressed button 2!</string>
-    <string name="textView">You pressed text!</string>
+    <string name="button1">You pressed the button 1!</string>
+    <string name="button2">You pressed the button 2!</string>
+    <string name="textView">You clicked on the text!</string>
 
 </resources>
