@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
                         textView.setText(R.string.button1);
 
                         Toast toast = Toast.makeText(MainActivity.this, "Hello", Toast.LENGTH_SHORT);
-                        toast.setGravity(Gravity.CENTER, 0, 200);
+                        toast.setGravity(Gravity.CENTER, 0, 135);
                         LinearLayout toastImage = (LinearLayout) toast.getView();
                         ImageView imageView = new ImageView(MainActivity.this);
                         imageView.setImageResource(R.drawable.epam);
-                        toastImage.addView(imageView, 105, 60);
+                        toastImage.addView(imageView, 250, 125);
                         toast.show();
 
                         break;
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                         textView.setText(R.string.button2);
 
                         Toast toast1 = Toast.makeText(MainActivity.this, "Hello EPAM!", Toast.LENGTH_SHORT);
-                        toast1.setGravity(Gravity.CENTER, 0, 175);
+                        toast1.setGravity(Gravity.CENTER, 0, 150);
                         toast1.show();
 
                         break;
