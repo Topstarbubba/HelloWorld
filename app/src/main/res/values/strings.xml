@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello EPAM</string>
+    <string name="button1">Click on button 1!</string>
+    <string name="button2">Click on button 2!</string>
+    <string name="textView">Click on textView!</string>
+
+</resources>
